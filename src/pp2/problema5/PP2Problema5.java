@@ -15,7 +15,7 @@ public class PP2Problema5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        verificarPrimo();
     }
     public static int solicitarDatos(String d){ //Solicita datos
         int miDato;
@@ -23,5 +23,16 @@ public class PP2Problema5 {
         System.out.print("Introduce el dato " + d);
         miDato= entradaEscaner.nextInt();
         return miDato;
+    }
+    public static void verificarPrimo(){
+        int n = solicitarDatos("numero");
+        if (n>1){
+            if(n/n == 1){
+                if(n/1 == n){
+                    System.out.print("El numero " + n + " es primo");
+                }
+            }
+        }
+        System.out.print("El numero " + n + " no es primo");
     }
 }
