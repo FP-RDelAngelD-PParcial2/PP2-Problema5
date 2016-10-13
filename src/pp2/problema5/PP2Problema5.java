@@ -26,13 +26,11 @@ public class PP2Problema5 {
     }
     public static void verificarPrimo(){
         int n = solicitarDatos("numero");
-        if (n>1){
-            if(n/2 != 0){
-                if(n/1 != n){
-                    System.out.print("El numero " + n + " no es primo");
-                }
+            if(n % 2 == 0){            
+                    System.out.print("El numero " + n + " no es primo");             
             }
-        }
+            else{
         System.out.print("El numero " + n + " es primo");
+            }
     }
 }
