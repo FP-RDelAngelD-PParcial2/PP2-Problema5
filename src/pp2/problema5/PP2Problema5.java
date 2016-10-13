@@ -25,8 +25,8 @@ public class PP2Problema5 {
         return miDato;
     }
     public static void verificarPrimo(){
-        int n = solicitarDatos("numero");
-            if(n % 2 == 0){            
+        int n = solicitarDatos("numero ");
+            if(n % 2 == 0 && n!=2){            
                     System.out.print("El numero " + n + " no es primo");             
             }
             else{
