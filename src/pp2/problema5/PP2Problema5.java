@@ -29,10 +29,10 @@ public class PP2Problema5 {
             if(n % 2 == 0 && n!=2 || n == 1){  //Si es que el residuo de n entre 2 es igual a 0
                                                //y si n es diferente de 2
                                                //o si n es igual a 1
-                    System.out.print("El numero " + n + " no es primo");             
+                    System.out.print("El numero " + n + " no es primo");//Imprime que no es primo          
             }
             else{
-        System.out.print("El numero " + n + " es primo");
+        System.out.print("El numero " + n + " es primo"); //Imprime que es primo
             }
     }
 }
