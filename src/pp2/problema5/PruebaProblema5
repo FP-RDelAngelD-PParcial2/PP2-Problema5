@@ -1,0 +1,7 @@
+run:
+Introduce el dato numero 5
+El numero 5 es primoBUILD SUCCESSFUL (total time: 2 seconds)
+
+run:
+Introduce el dato numero 88
+El numero 88 no es primoBUILD SUCCESSFUL (total time: 1 second)
